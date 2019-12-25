@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: £gVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ssu  Ming Wang, National Yang Ming University , LIC=SDAQD-86I97-3MD9Q-NST69-G09Q4-6XNSP
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.18
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+D:\ARM\Final_project3\Nucleo_printf_demo\Nucleo_printf_demo\Nucleo_printf.uvprojx
+Project File Date:  06/16/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Nucleo_printf'
+compiling main.cpp...
+mbed/drivers/L9110S.h(123): warning:  #1-D: last line of file ends without a newline
+  };
+main.cpp(121): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      if ( fabs(diff) < (trash / 10.0)) {p = 0; drive_i *= 0.9;}        //Leistung 0, wenn innerhalb Threshold
+main.cpp(367): warning:  #2532-D: support for trigraphs is disabled
+  float deadband = 1.5;                                                // ??????????(mmHg)  
+main.cpp(395): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	float sensorValue = ((voltage - 0.04)/0.09); //Voltage = Vout/Vs , expressed in percentage // Vs = Vin reference voltage
+main.cpp(539): warning:  #1-D: last line of file ends without a newline
+  	
+main.cpp: 5 warnings, 0 errors
+linking...
+Program Size: Code=37704 RO-data=3680 RW-data=168 ZI-data=2204  
+".\BUILD\Nucleo_printf.axf" - 0 Error(s), 5 Warning(s).
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
